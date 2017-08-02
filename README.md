@@ -1,12 +1,13 @@
-
-
 this program is my personal source code.
-https://github.com/daikumatan/rescaleapi-wrapper
-
 Please use this source code under your responsibility
 
 There are not upload/download commands.
 In this regards, you had better use the Rescale CLI.
+
+Japanese doc is here:
+http://qiita.com/daikumatan/items/f74c0ca82adfe0ef0730
+
+I'm not good at Python, please tell me if you have a good code.
 
 pre-condition
 =======================
