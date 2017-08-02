@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 __doc__ = """{f}
 
 Usage:
@@ -463,4 +465,3 @@ if __name__ == '__main__':
 
     r = rescale_api_handler(token, rescale_platform)
     sys.exit(r.exit_code)
-
