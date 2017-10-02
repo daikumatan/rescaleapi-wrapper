@@ -1,0 +1,23 @@
+#############################################
+# YAML形式でファイルを作成してください
+# YAMLはタブとスペースを明確に区別します
+# 編集時は気をつけてください
+#############################################
+# JOBNAMEをいれてください
+name: SAMPLE_JOB_NAME
+jobanalyses:
+# 必要に応じて ./run.sh を変更してください
+- command: ./run.sh
+# 変数 "coresPerSlot" に使用するコア数をいれてくださ
+  hardware:
+    coresPerSlot: 2
+    slots: 1
+    coreType: {code: hpc-3}
+# ファイルをアップロードするときに得られたFileIDを入力してください
+  inputFiles:
+  - {id: XXXXXXX}
+  - {id: YYYYYYY}
+  - {id: ZZZZZZZ}
+# アプリケーションを選択します。
+  analysis: {code: user_included_mpi, version: openmpi-2.1.1}
+isLowPriority: 'false'
